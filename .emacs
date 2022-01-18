@@ -521,19 +521,23 @@
 
 (define-skeleton f90-r
   "Inserts a fortran90 real variable declaration."
-  >"real   (kind=WP) :: " )
+  >"real   (kind=WP) :: "
+)
 
 (define-skeleton f90-ra
   "Inserts a fortran90 real allocatable variable declaration."
-  >"real   (kind=WP), allocatable :: " )
+  >"real   (kind=WP), allocatable :: "
+)
 
 (define-skeleton f90-i
   "Inserts a fortran90 integer variable declaration."
-  >"integer(kind=WI) :: " )
+  >"integer(kind=WI) :: "
+)
 
 (define-skeleton f90-ia
   "Inserts a fortran90 integer allocatable variable declaration."
-  >"integer(kind=WI), allocatable :: " )
+  >"integer(kind=WI), allocatable :: "
+)
 
 ;; add an f08 hook
  (add-to-list 'auto-mode-alist '("\\.f08\\'" . f90-mode))
