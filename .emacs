@@ -315,7 +315,7 @@
 (define-skeleton f90-prec
   "Inserts a fortran90 precision module."
   ""
-  >"!" (make-string (- fill-column 2) ?*) "!\n"
+   "!" (make-string (- fill-column 2) ?*) "!\n"
   >"!" (make-string (- fill-column 2) ?*) "!\n"
   >"!" (make-string (- fill-column 2) ?\ ) "!\n" 
   >"!" (make-string 3 ?\ ) "precision -- A module to set the precision of variables" (make-string (- fill-column 60) ?\ ) "!\n"
@@ -381,7 +381,7 @@
   '(setq v1  (skeleton-read "Date (DDMMMYY): "))
   '(setq v2  (skeleton-read "Short Description: "))
   '(when (string= str "") (setq str " - "))
-  >"!" (make-string (- fill-column 2) ?*) "!\n"
+   "!" (make-string (- fill-column 2) ?*) "!\n"
   >"!" (make-string (- fill-column 2) ?*) "!\n"
   >"!" (make-string (- fill-column 2) ?\ ) "!\n" 
   >"!" (make-string 3 ?\ ) str " -- " v2 (make-string (- fill-column 9 (length str) (length v2)) ?\ ) "!\n"
@@ -455,7 +455,7 @@
   '(setq v1  (skeleton-read "Date (DDMMMYY): "))
   '(setq v2  (skeleton-read "Short Description: "))
   '(when (string= str "") (setq str " - "))
-  >"!" (make-string (- fill-column 2) ?*) "!\n"
+   "!" (make-string (- fill-column 2) ?*) "!\n"
   >"!" (make-string (- fill-column 2) ?*) "!\n"
   >"!" (make-string (- fill-column 2) ?\ ) "!\n" 
   >"!" (make-string 3 ?\ ) str " -- " v2 (make-string (- fill-column 9 (length str) (length v2)) ?\ ) "!\n"
@@ -513,7 +513,7 @@
   >"!" (make-string (- fill-column 2) ?* ) "!\n"
   >"!" (make-string (- fill-column 2) ?* ) "!\n"
   >"!" (make-string (- fill-column 2) ?\ ) "!\n" 
-  >"!" (make-string 3 ?\ ) "End of program " str (make-string (- fill-column 18 (length str) ) ?\ ) "!\n"
+  >"!" (make-string 3 ?\ ) "End of program " str (make-string (- fill-column 20 (length str) ) ?\ ) "!\n"
   >"!" (make-string (- fill-column 2) ?\ ) "!\n"
   >"!" (make-string (- fill-column 2) ?* ) "!\n"
   >"!" (make-string (- fill-column 2) ?* ) "!\n"
