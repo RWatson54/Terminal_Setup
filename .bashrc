@@ -141,6 +141,9 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias ~='cd ~'
 
+#tidy up terminal setup repo
+alias updateTSRepo='cp ~/.onthisday ~/Terminal_Setup/.; cp ~/.bashrc ~/Terminal_Setup/.; cp ~/.emacs ~/Terminal_Setup/.'
+
 #stop cocking up deletion
 #alias rm='dl'
 
