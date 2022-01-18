@@ -415,8 +415,8 @@
 
 ;; Matlab mode hook
 ;; Replace path below to be where your matlab.el file is.
-(add-to-list 'load-path "/home/raw54/bin/MATLAB/Emacs/matlab-emacs-src")
-(load-library "matlab-load")
+;; (add-to-list 'load-path "/home/raw54/bin/MATLAB/Emacs/matlab-emacs-src")
+;; (load-library "matlab-load")
 
 ;; Enable CEDET feature support for MATLAB code. (Optional)
 ;; (matlab-cedet-setup)

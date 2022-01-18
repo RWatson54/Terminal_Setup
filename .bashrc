@@ -142,7 +142,7 @@ alias ....='cd ../../..'
 alias ~='cd ~'
 
 #tidy up terminal setup repo
-alias updateTSRepo='cp ~/.onthisday ~/Terminal_Setup/.; cp ~/.bashrc ~/Terminal_Setup/.; cp ~/.emacs ~/Terminal_Setup/.'
+alias updateTSRepo='cp ~/.onthisday ~/Terminal_Setup/.; cp ~/.bashrc ~/Terminal_Setup/.; cp ~/.emacs ~/Terminal_Setup/.; cp ~/.inputrc ~/Terminal_Setup/.'
 
 #stop cocking up deletion
 #alias rm='dl'
@@ -150,14 +150,7 @@ alias updateTSRepo='cp ~/.onthisday ~/Terminal_Setup/.; cp ~/.bashrc ~/Terminal_
 #on this day
 #alias today='grep -h -d skip `date +%m/%d` /usr/share/calendar/*'
 #alias today='grep -h -d skip `date +%m/%d` ~/.calendar_things/*'
-alias today='grep -h -d skip `date +%m/%d` ~/Calendar/calendar | sort -R | head -n 10 | sort -n -k2 | grep -h -d skip `date +%m/%d`'
-
-#alias to sort out VNC things
-alias vncrl='/home/raw54/bin/vnc_server.sh start raw54 lobera'
-alias vncrt='/home/raw54/bin/vnc_server.sh start raw54 turbine-116'
-alias vnckl='/home/raw54/bin/vnc_server.sh stop raw54 lobera'
-alias vnckt='/home/raw54/bin/vnc_server.sh stop raw54 turbine-116'
-alias vncin='/home/raw54/bin/vnc_server.sh klink raw54 lobera'
+alias today='grep -h -d skip `date +%m/%d` ~/.onthisday | sort -R | head -n 10 | sort -n -k2 | grep -h -d skip `date +%m/%d`'
 
 #welcome screen
 clear
