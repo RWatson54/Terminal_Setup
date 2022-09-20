@@ -159,7 +159,7 @@ clear
 alias backup='sudo rsync -aP --exclude-from=/var/tmp/ignorelist /home/raw54/ /media/raw54/Backup_Drive/'
 
 echo -ne "${LIGHTRED}" "Hello, $USER. today is, "; date
-echo -e "${BLUE}"; cal ; 
+echo -e "${BLUE}"; ncal -b; 
 printf "\n"
 echo -ne "${LIGHTBLUE}";
 today
