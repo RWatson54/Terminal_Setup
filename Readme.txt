@@ -10,6 +10,7 @@ Then copy out the files to where they'll be used:
 cp ~/Terminal_Setup/.onthisday ~/.
 cp ~/Terminal_Setup/.emacs ~/.
 cp ~/Terminal_Setup/.bashrc ~/.
+cp ~/Terminal_Setup/.inputrc ~/.
 
 Once this is done, you can restart the terminal, and you should have the usual setup.
 
