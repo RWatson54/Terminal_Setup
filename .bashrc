@@ -168,6 +168,9 @@ printf "\n"
 echo -ne "${LIGHTRED}Sysinfo:";uptime ;echo ""
 echo -ne "${NC}";
 
+# Add spack everywhere
+. ~/.spack/Spack/share/spack/setup-env.sh
+
 #Useful functions
 #function dl () {
 #
