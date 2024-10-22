@@ -156,10 +156,10 @@ alias today='grep -h -d skip `date +%m/%d` ~/.onthisday | sort -R | head -n 10 |
 clear
 
 #backup command
-alias backup='sudo rsync -aP --exclude-from=/var/tmp/ignorelist /home/raw54/ /media/raw54/Backup_Drive/'
+#alias backup='sudo rsync -aP --exclude-from=/var/tmp/ignorelist /home/raw54/ /media/raw54/Backup_Drive/'
 
 echo -ne "${LIGHTRED}" "Hello, $USER. today is, "; date
-echo -e "${BLUE}"; ncal -b; 
+echo -e "${BLUE}"; cal -3; 
 printf "\n"
 echo -ne "${LIGHTBLUE}";
 today
@@ -169,7 +169,7 @@ echo -ne "${LIGHTRED}Sysinfo:";uptime ;echo ""
 echo -ne "${NC}";
 
 # Add spack everywhere
-. ~/.spack/Spack/share/spack/setup-env.sh
+#. ~/.spack/Spack/share/spack/setup-env.sh
 
 #Useful functions
 #function dl () {

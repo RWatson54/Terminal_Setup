@@ -551,3 +551,6 @@
 
 ;; Enable CEDET feature support for MATLAB code. (Optional)
 ;; (matlab-cedet-setup)
+
+;; Make the backspace key work backwards
+(normal-erase-is-backspace-mode 1)
